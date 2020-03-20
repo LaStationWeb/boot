@@ -6,6 +6,9 @@
   src: local("Lato"), local("Lato"), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXg.woff2) format("woff2");
   font-display: swap; }
 
+body {
+  font-family: 'Lato' !important; }
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
