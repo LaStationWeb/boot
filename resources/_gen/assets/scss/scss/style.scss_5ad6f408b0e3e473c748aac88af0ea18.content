@@ -1,10 +1,5 @@
-@font-face {
-  font-family: "Lato";
-  src: url("../../Lato-Regular.ttf") format("truetype");
-  font-display: swap; }
-
 body {
-  font-family: "Lato" !important; }
+  font-family: "Montserrat" !important; }
 
 :root {
   --blue: #007bff;
