@@ -1,13 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400|Open+Sans:400,700");
 @font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Lato"), local("Lato"), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXg.woff2) format("woff2");
+  font-family: "Lato";
+  src: url("themes/boot/static/Lato-Bold.ttf") format("truetype");
+  src: url("themes/boot/static/Lato-Regular.ttf") format("truetype");
   font-display: swap; }
 
 body {
-  font-family: 'Lato' !important; }
+  font-family: "Lato" !important; }
 
 :root {
   --blue: #007bff;
