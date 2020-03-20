@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400|Open+Sans:400,700");
 @font-face {
   font-family: "Lato";
-  src: url("themes/boot/static/Lato-Bold.ttf") format("truetype");
-  src: url("themes/boot/static/Lato-Regular.ttf") format("truetype");
-  font-display: swap; }
+  src: url("/Lato-Bold.ttf") format("truetype");
+  src: url("/Lato-Regular.ttf") format("truetype");
+  font-display: auto; }
 
 body {
   font-family: "Lato" !important; }
