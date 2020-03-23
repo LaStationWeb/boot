@@ -4,11 +4,14 @@
     }
     }
 @media (max-width: 768px) {
-        .navbar-nav {
-            display: none;
-    }
-    }    
-    /* MENU STYLES */
+  .desktopmenu  {
+    display: none !important;
+}
+}
+a {
+  color: black;
+}
+/* MENU STYLES */
     
     .menu-wrap {
         position: fixed;
@@ -150,4 +153,3 @@
         text-decoration: none;
         transition: color 0.4s ease;
       }
-    

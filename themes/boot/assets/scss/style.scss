@@ -1,7 +1,3 @@
-// Global
-@import 'global/main';
-@import 'global/hamburger';
-
 // Bootstrap
 @import 'bootstrap/functions';
 @import 'bootstrap/variables';
@@ -38,3 +34,7 @@
 //@import "bootstrap/carousel";
 //@import "bootstrap/print";
 @import 'bootstrap/utilities';
+
+// Global
+@import 'global/main';
+@import 'global/hamburger';
