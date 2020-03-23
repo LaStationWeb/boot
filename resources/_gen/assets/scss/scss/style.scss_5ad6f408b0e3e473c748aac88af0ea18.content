@@ -5,6 +5,10 @@ footer {
   .menu-wrap {
     display: none; } }
 
+@media (max-width: 768px) {
+  .navbar-nav {
+    display: none; } }
+
 /* MENU STYLES */
 .menu-wrap {
   position: fixed;
