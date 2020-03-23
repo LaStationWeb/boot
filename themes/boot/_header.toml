@@ -1,8 +1,8 @@
 [[headers]]
-  for = "/*"
+  for = "*.js"
   [headers.values]
-	cache-control = '''
-	max-age=0,
-	no-cache,
-	no-store,
-	must-revalidate'''
+    Cache-Control = "public, max-age=604800"
+[[headers]]
+  for = "*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
