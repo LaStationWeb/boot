@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{.Site.Language}}">
+    <head>
     {{- partial "meta.html" . -}}
-    {{- partial "head.html" . -}}
     {{- partial "schema.html" . -}}
+    {{- partial "head.html" . -}}
+    {{ template "_internal/google_analytics.html" . }}
+    </head>
     <body>
         {{- partial "nav.html" . -}}
         {{- partial "header.html" . -}}

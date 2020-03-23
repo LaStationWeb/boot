@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "BOOT - The Perfect HUGO Starter Theme"
 theme = "boot"
 relativeURLs = true
+googleAnalytics = "UA-152851764-2" # Your Analytics ID here
 
 [params]
     # Schema Information
