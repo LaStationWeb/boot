@@ -1,26 +1,17 @@
-<!-- Desktop Menu -->
-<nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
-    <div class="container">
-    <a class="navbar-brand" href="/">Boot Theme</a>
-        <div class="desktopmenu d-flex align-items-end">
-            {{ range .Site.Menus.mainmenu }}
-            <a class="nav-item nav-link" href="{{ .URL }}">{{ .Name }}</a>
+<nav class="white">
+    <div class="container navbar">
+      <a href="#!" class="black-text brand-logo left">Logo</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons" style="font-size:40px;color:black">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+          {{ range .Site.Menus.mainmenu}}
+          <li><a class="black-text" href="{{ .URL }}">{{ .Name }}</a></li>
             {{ end }}
+      </ul>
     </div>
-</nav>
-<!-- Mobile Menu -->
-<div class="menu-wrap">
-  <input type="checkbox" class="toggler">
-  <div class="hamburger"><div></div></div>
-  <div class="menu">
-    <div>
-      <div>
-        <ul>
-          {{ range .Site.Menus.mainmenu }}
-          <li><a class="nav-item nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
+  </nav>
+
+  <ul class="sidenav right" id="mobile-demo">
+        {{ range .Site.Menus.mainmenu}}
+        <li><a class="black-text" href="{{ .URL }}">{{ .Name }}</a></li>
           {{ end }}
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
+  </ul>
