@@ -3796,8 +3796,8 @@ a.text-dark:hover, a.text-dark:focus {
 footer {
   background-color: black; }
 
-.home {
-  margin: 300px 0px; }
+body {
+  margin-top: 55px; }
 
 #scroll {
   position: fixed;
