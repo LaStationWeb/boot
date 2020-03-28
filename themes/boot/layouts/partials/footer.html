@@ -1,6 +1,5 @@
 <footer>
-    {{ $scripts := resources.Get "js/bin/materialize.min.js" }}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" defer></script>
     {{ $scripts := resources.Get "js/script.js" }}
-    <script type="text/javascript" src="{{ ($scripts | minify | fingerprint).RelPermalink }}"></script>
+    <script type="text/javascript" src="{{ ($scripts | minify | fingerprint).RelPermalink }}" defer></script>
 </footer>

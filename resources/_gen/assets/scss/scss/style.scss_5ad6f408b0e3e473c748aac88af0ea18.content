@@ -6472,12 +6472,6 @@ input[type=range]::-ms-thumb {
     text-align: center;
     margin-top: 1.2rem; } }
 
-footer {
-  background-color: black; }
-
-.navbar {
-  width: 100% !important; }
-
 @media (min-width: 768px) {
   .menu-wrap {
     display: none; } }
